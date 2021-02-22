@@ -24,12 +24,6 @@ source "${ZSH}/oh-my-zsh.sh"
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
-## mise en commentaire
-# export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
-# export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
-# export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
-# export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
-# export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -38,14 +32,14 @@ export NVM_DIR="$HOME/.nvm"
 # Exports {{{
 export GITHUB_USER="wizz7533"
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin # Reorder PATH so local bin is first
-export GREP_OPTIONS='--color=auto'
+export GREP_OPTIONS="--color=auto"
 export GREP_COLOR='1;32'
 export MANPAGER="less -X" # Don’t clear the screen after quitting a manual page
 export EDITOR="vim"
 export TERM="screen-256color"
 export CLICOLOR=1
-export LSCOLORS=Gxfxcxdxbxegedabagacad
-export LS_COLORS=Gxfxcxdxbxegedabagacad
+# export LSCOLORS=Gxfxcxdxbxegedabagacad
+# export LS_COLORS=Gxfxcxdxbxegedabagacad
 # }}}
 
 ##  Load rbenv if installed
