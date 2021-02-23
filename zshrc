@@ -32,14 +32,14 @@ export NVM_DIR="$HOME/.nvm"
 # Exports {{{
 export GITHUB_USER="wizz7533"
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin # Reorder PATH so local bin is first
-export GREP_OPTIONS="--color=auto"
+export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='1;32'
 export MANPAGER="less -X" # Don’t clear the screen after quitting a manual page
 export EDITOR="vim"
 export TERM="screen-256color"
 export CLICOLOR=1
-# export LSCOLORS=Gxfxcxdxbxegedabagacad
-# export LS_COLORS=Gxfxcxdxbxegedabagacad
+export LSCOLORS=Gxfxcxdxbxegedabagacad
+export LS_COLORS=Gxfxcxdxbxegedabagacad
 # }}}
 
 ##  Load rbenv if installed
@@ -304,7 +304,7 @@ function current_pwd {
 # $(prompt_char) '
 
 PROMPT='
-${PR_GREEN}M.%{$reset_color%} ${PR_BOLD_YELLOW}$(current_pwd)%{$reset_color%} $(git_prompt_string)
+${PR_GREEN}W1zz (-.-).%{$reset_color%} ${PR_BOLD_YELLOW}$(current_pwd)%{$reset_color%} $(git_prompt_string)
 $(prompt_char) '
 
 export SPROMPT="Correct $fg[red]%R$reset_color to $fg[green]%r$reset_color [(y)es (n)o (a)bort (e)dit]? "
